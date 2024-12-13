@@ -1,0 +1,163 @@
+
+body {
+    margin: 1;
+    font-family: 'Roboto';
+    background-color: #F4D03F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card_con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.card {
+    width: 275px;
+    height: 365px;
+    background: white;
+    font-family: 'Roboto';
+    border-radius: 18px;
+    padding: 12px;
+    box-shadow: black;
+    overflow: hidden; 
+    border-style:solid;
+    border-width: 1px;
+    box-shadow: 5px 5px black ;
+}
+
+.card-header {
+    background:#F4D03F;
+    border-radius: 15px;
+    height: 150px;
+    width: 275px;
+    display: flex;
+    gap:1px;
+  /*  align-items: center;
+    justify-content: center;*/
+    
+}
+.card-header img{
+    width: 275px;
+    height: 150px;
+    margin-right: 1px;
+    border-radius: 15px;
+  
+}
+/*
+.icon{
+height: 100px;
+width: 80px;
+border-radius: 40px;
+vertical-align: top;
+background:white;
+transform: rotate(+50deg);
+top: 100px;
+left: 1px;
+}
+.icon2{
+    height: 100px;
+    width: 80x;
+    border-radius: 40px;
+    vertical-align: top;
+    display:flex;
+    background:black;
+    transform: rotate(+50deg);
+   
+}
+.icon3{
+    height: 100px;
+    width: 80px;
+    border-radius: 40px;
+    vertical-align: top;
+    display:flex;
+    background:white;
+    transform: rotate(+50deg);
+    top: 1px;
+    left: 1px;
+   
+}
+.icon4{
+    display: flex;
+    position: initial;
+    width: 150px;
+    height: 60px;
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 100px;
+  }
+
+.line {
+    display: flex;
+align-items: center;
+    width: 120px;
+    height: 2px;
+    background-color:white;
+    transform: rotate(45deg);
+    top: 250px;
+    left:190px;
+    
+  }*/
+
+.card-content {
+    padding: 10px;
+    
+}
+
+.learn {
+    background: #F4D03F;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.date {
+    font-size: 10px;
+    color: black;
+    font-family: 'Roboto';
+    padding: 2px ;
+}
+
+.title {
+    font-family:'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    color:black;
+}
+
+.content {
+    font-size: 14px;
+    color:grey;
+    margin-bottom: 12px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+}
+.person img {
+    width: 25px;
+    height: 25px;
+    margin-right: 1px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+.person span {
+    font-size: 13px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+  
+}
+ 
